@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="../js/face.js"></script>
+    <link rel="stylesheet" href="../css/face.css">
+
+</head>
+<body>
+
+<form action="#" method="post" enctype="multipart/form-data" id="form" hidden>
+    <input type="file" name="file" id="file" onchange="uploadpic()">
+</form>
+
+<div class="d1">
+    <div class="face1" id="face1" onclick="selectfile('face1')"></div>
+    <div class="face2" id="face2" onclick="selectfile('face2')"></div>
+</div>
+
+<div id="div"></div>
+<button id="btn">测试</button>
+</body>
+</html>
